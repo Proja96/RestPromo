@@ -1,0 +1,30 @@
+/*  */
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffb03b;
+  }
+  
+  a:hover {
+    color: #ffc56e;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+     font-family: "Satisfy", sans-serif; 
+  }
+  
+  .max-width-container{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
