@@ -2,767 +2,1008 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta content="initial-scale=1.0" name="viewport" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>RestPromo</title>
+    <title>RestPromo Restoran</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
-    <body>
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon" />
+    <link href="assets/img/apple-touch-icon.ico" rel="apple-touch-icon" />
 
-        <!-- ======= Top bar ======= -->
-        <section>
-        <div>
-          <i><span>+381 11 33 24 768</span></i>
-          <i ><span>Pon-Čet: 12:00 AM - 23:00 PM</span></i>
-          <i ><span>Pet-Ned: 12:00 AM - 00:00 PM</span></i
-          >
-        </div>
-      </section>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i"
+      rel="stylesheet"
+    />
 
-      <!-- ======= Header ======= -->
-    <header>
-    <div>
-      <div>
-        <h1><a href="#">RestPromo</a></h1>
-      </div>
+    <!-- Vendor CSS Files -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css"
+    />
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- Template Main CSS File -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
 
-      <nav>
-        <ul>
-          <li><a  href="#">Početna strana</a></li>
-          <li><a  href="#">O nama</a></li>
-          <li><a  href="#">Meni</a></li>
-          <li><a  href="#">Događaji</a></li>
-          <li><a  href="#">Galerija</a></li>
-          <li><a  href="#">Kontakt</a></li>
-        </ul>
-      </nav>
-      <!-- navbar -->
-
-      <a href="#">Rezerviši mesto</a>
-
-    </div>
-  </header>
-
-  <!-- ======= Hero Section ======= -->
-  <section >
-    <div >
-      <div>
-        <ol ></ol>
-        <div >
-          <!-- Slide 1 -->
-          <div>
-            <div>
-              <div>
-                <h2>
-                  <span>RestPromo</span> Restoran
-                </h2>
-                <p>
-                  Mesto najbolje <strong> Italijanske </strong> kuhinje u gradu.
-                </p>
-                <div>
-                  <a href="#" >Meni</a>
-                  <a href="#">Rezerviši sto</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
- <!-- Slide 2 -->
- <div>
- <div>
-   <div>
-     <h2>Duša Novog Sada<span> !</span>
-     </h2>
-     <p>
-       Break from the ordinary and escape to
-       <strong>RestPromo</strong>, Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>RestPromo</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-     <div>
-       <a href="#" >Meni</a>
-       <a href="#">Rezerviši sto</a>
-     </div>
-   </div>
- </div>
-</div>
-<!-- Slide 3 -->
-<div>
-<div>
-  <div>
-    <h2>
-      Specijaliteti <span>!</span>
-    </h2>
-    <p>
-      Pronadji savšen ukus za sebe u našem meniju.
-    </p>
-    <div>
-      <a href="#">Meni</a>
-      <a href="#">Rezerviši sto</a
+  <body>
+    <!-- ======= Top Bar ======= -->
+    <section
+      id="topbar"
+      class="d-flex align-items-center fixed-top topbar-transparent"
+    >
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start"
       >
-    </div>
-  </div>
-</div>
-</div>
-</div>
-<!--Prelazi-->
-<a href="#">
-    <span>---</span>
-</a>
-<a href="#">
-    <span>---</span>
-</a>
-<a href="#">
-    <span>---</span>
-</a>
-        </div>
+        <i class="bi bi-phone d-flex align-items-center"
+          ><span>+318 11 33 24 768</span></i
+        >
+        <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"
+          ><span>Pon-Čet: 12:00 AM - 23:00 PM</span></i
+        >
+        <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"
+          ><span>Pet-Ned: 12:00 AM - 00:00 PM</span></i
+        >
       </div>
     </section>
 
-    <!-- ======= Main ======= -->
-    <main>
-<!-- ======= About Section ======= -->
-<section>
-    <div>
-      <div>
-        <div>
-          <video></video>
+    <!-- ======= Header ======= -->
+    <header
+      id="header"
+      class="fixed-top d-flex align-items-center header-transparent"
+    >
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <div class="logo me-auto">
+          <h1><a href="index.html">RestPromo</a></h1>
         </div>
-  
-        <div>
-          <div>
-            <h3>Otkrij <strong>Našu istoriju</strong></h3>
-            <p>
-              RestPromo je italijanski restoran u srcu Novog Sada. Sa velikim izborom pasta, salata, pica i dezerta, naš restoran je pravo mesto za sve ljubitelje italijanske kuhinje.
-            </p>
-            <p >Izbor hrane:</p>
-            <ul>
-              <li><i></i> Pasta sa Parmigiano
-                (Beli i crveni sos).
-              </li>
-              <li><i></i> Rižoto.</li>
-              <li><i></i> Salate.</li>
-              <li><i></i> Deserti.</li>
-            </ul>
-            <p>
-              Izaberi pastu (Spaghetti, Penne, Farfalle, Tagliatelle)
-              i spremamo je sa sveže presovanim testom.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End About Section -->
 
-  <!-- start menu Section -->
-
-<section>
-    <div>
-      <div>
-        <h2>Meni</h2>
-        <p>Pogledaj naš meni</p>
-      </div>
-  
-      <div>
-        <div>
+        <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
-            <li>Sve</li>
-            <li>Pića</li>
-            <li>Salate</li>
-            <li>Specijaliteti</li>
+            <li>
+              <a class="nav-link scrollto active" href="#hero">Početna</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#about">O nama</a></li>
+            <li><a class="nav-link scrollto" href="#menu">Meni</a></li>
+            <li><a class="nav-link scrollto" href="#events">Događaji</a></li>
+            <li><a class="nav-link scrollto" href="#gallery">Galerija</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Kontakt</a></li>
           </ul>
-        </div>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+
+        <a href="#book-a-table" class="book-a-table-btn scrollto"
+          >Napravi rezervaciju</a
+        >
       </div>
-  
-      <div>
-        <div>
-          <img alt="Schweppes" />
-          <div>
-            <div>
-              <a># Schweppes Tonic</a>
-            </div>
-          </div>
-        </div>
-  
-        <div>
-          <img alt="Kleopatra" />
-          <div>
-            <div>
-              <a>#kleopatra</a>
-            </div>
-            <div>
-              Filet morske pastrmke, Škampi, Pečurke,
-              Lovor , Krastavac, Limun, Maslinovo ulje.
-            </div>
-          </div>
-        </div>
-  
-        <div>
-          <img alt="Sok" />
-          <div>
-            <div>
-              <a>#Sveže ceđen sok od narandže</a>
-            </div>
-          </div>
-        </div>
-  
-        <div>
-          <img alt="Csalata" />
-          <div>
-            <div>
-              <a>#Cezar salata</a>
-            </div>
-            <div>
-              Heart of Lettuce, Cherry Tomatoes, Grilled Chicken, Parmesan.
-            </div>
-          </div>
-        </div>
-  
-        <div>
-          <img alt="Mesanko" />
-          <div>
-            <div>
-              <a>#Mesanko</a>
-            </div>
-            <div>
-              Paradajz sos, Mozzarella, Šunka, Pečurke, Origano.
-            </div>
-          </div>
-        </div>
-  
-        <div>
-          <img alt="Mojito" />
-          <div>
-            <div>
-              <a>#Mojito</a>
-            </div>
-          </div>
-        </div>
-  
-        <div>
-          <img alt="Lsalata" />
-          <div>
-            <div>
-              <a>#Luda salata</a>
-            </div>
-            <div>
-              Zelena salata, Rukola, Cherry paradajz, Krastavac, Feta sir.
-            </div>
-          </div>
-        </div>
-  
-        <div>
-          <img alt="Bsalata" />
-          <div>
-            <div>
-              <a>#Burrata salata</a>
-            </div>
-            <div>
-                Cherry paradajz, Rukola, Masline, Maslinovo ulje.
-            </div>
-          </div>
-        </div>
-  
-        <div>
-          <img alt="Sočko" />
-          <div>
-            <div>
-              <a>#Sočko</a>
-            </div>
-            <div>
-              Mešano meso, Šampinjoni, Origano, Masline, Paradajz sos.
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-  
-<!-- ======= Events Section ======= -->
-<section>
-    <div>
-      <div>
-        <h2>Rođendan <span>Proslave</span> kod nas!</h2>
-      </div>
-  
-      <div>
-        <div>
-          <div>
-            <div>
-              <div>
-                <img alt="" />
-              </div>
-              <div>
-                <h3>Rođendani</h3>
-                <div>
-                  <p><span>2 sata</span></p>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+      <div class="hero-container max-width-container">
+        <div
+          id="heroCarousel"
+          data-bs-interval="5000"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+          <div class="carousel-inner" role="listbox">
+            <!-- Slide 1 -->
+            <div
+              class="carousel-item active"
+              style="background-image: url(assets/img/slide/slide-1.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    <span>RestPromo</span> Restoran
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Kuća najbolje <strong> Italijanske </strong> kuhinje u
+                    gradu.
+                  </p>
+                  <div>
+                    <a
+                      href="#menu"
+                      class="btn-menu animate__animated animate__fadeInUp scrollto"
+                      >Naš meni</a
+                    >
+                    <a
+                      href="#book-a-table"
+                      class="btn-book animate__animated animate__fadeInUp scrollto"
+                      >Napravi rezervaciju</a
+                    >
+                  </div>
                 </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div
+              class="carousel-item"
+              style="background-image: url(assets/img/slide/slide-2.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Srce Novog Sada<span> !</span>
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Zaboravi sve ostalo i dođi u
+                    <strong>RestPromo</strong>, deo Italijanske istorije.
+                    <strong>RestPromo</strong> radi tokom cele nedelje, kao i
+                    lične dostave na kućnu adresu.
+                  </p>
+                  <div>
+                    <a
+                      href="#menu"
+                      class="btn-menu animate__animated animate__fadeInUp scrollto"
+                      >Naš meni</a
+                    >
+                    <a
+                      href="#book-a-table"
+                      class="btn-book animate__animated animate__fadeInUp scrollto"
+                      >Napravi rezervaciju</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div
+              class="carousel-item"
+              style="background-image: url(assets/img/slide/slide-3.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Specijaliteti <span>!</span>
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Pronadji savšen obrok za sebe u našem meniju.
+                  </p>
+                  <div>
+                    <a
+                      href="#menu"
+                      class="btn-menu animate__animated animate__fadeInUp scrollto"
+                      >Naš meni</a
+                    >
+                    <a
+                      href="#book-a-table"
+                      class="btn-book animate__animated animate__fadeInUp scrollto"
+                      >Napravi rezervaciju</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#heroCarousel"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bi bi-chevron-left"
+              aria-hidden="true"
+            ></span>
+          </a>
+
+          <a
+            class="carousel-control-next"
+            href="#heroCarousel"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bi bi-chevron-right"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container-fluid max-width-container">
+          <div class="row">
+           
+
+            <div
+              class="col-lg-12 d-flex flex-column justify-content-center align-items-stretch"
+            >
+              <div class="content">
+                <h3>Malo o <strong>RestPromo</strong></h3>
                 <p>
-                    Organizovanje rođendanske zabave u našem restoranu je odličan način
-                    za okupljenje društva. Možete se sastati sa našim planerima za događaje:
+                  RestPromo je italijanski restoran u srcu Novog Sada. Sa
+                  velikim izborom pasta, salata, pica i dezerta, naš restoran je
+                  pravo mesto za sve ljubitelje italijanske kuhinje.
                 </p>
+                <p class="fst-italic">Izbor hrane:</p>
                 <ul>
-                  <li><i></i> Hrana.</li>
-                  <li><i></i> Piće.</li>
                   <li>
-                    <i></i> Dekoracije i raspored žurke.
+                    <i class="bx bx-check-double"></i> Pasta sa Parmigiano (Beli
+                    i crveni sos)
                   </li>
+                  <li><i class="bx bx-check-double"></i> Rižoto</li>
+                  <li><i class="bx bx-check-double"></i> Salate</li>
+                  <li><i class="bx bx-check-double"></i> Deserti</li>
                 </ul>
                 <p>
-                  Garantujemo da će vaša zabava biti nezaboravna.
+                  Izaberi pastu (Spaghetti, Penne, Farfalle, Tagliatelle) i
+                  spremamo je sa sveže presovanim testom.
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- End testimonial item -->
+      </section>
+      <!-- End About Section -->
 
-  <!-- ======= Events Section ======= -->
-<section>
-    <div>
-      <div>
-        <h2>Rođendan <span>Proslave</span> kod nas!</h2>
-      </div>
-  
-      <div>
-        <div>
-          <div>
-            <div>
-              <div>
-                <img alt="" />
-              </div>
-              <div>
-                <h3>Rođendani</h3>
-                <div>
-                  <p><span>2 sata</span></p>
+      <!-- start menu Section -->
+
+      <section id="menu" class="menu section-bg">
+        <div class="container max-width-container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Meni</h2>
+            <p>Pogledaj naš meni</p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="menu-flters">
+                <li data-filter="*" class="filter-active">Sve</li>
+                <li data-filter=".filter-drinks">Pića</li>
+                <li data-filter=".filter-salads">Salate</li>
+                <li data-filter=".filter-specialty">Specijaliteti</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="row menu-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="col-lg-6 menu-item filter-drinks">
+              <img
+                src="assets/img/menu/schweppes-tonic.jpg"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Schweppes Tonic</a>
                 </div>
-                <p>
-                    Organizovanje rođendanske zabave u našem restoranu je odličan način
-                    za okupljenje društva. Možete se sastati sa našim planerima za događaje:
-                </p>
-                <ul>
-                  <li><i></i> Hrana.</li>
-                  <li><i></i> Piće.</li>
-                  <li>
-                    <i></i> Dekoracije i raspored žurke.
-                  </li>
-                </ul>
-                <p>
-                  Garantujemo da će vaša zabava biti nezaboravna.
-                </p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End testimonial item -->
 
-  <!-- ======= Events Section ======= -->
-<section>
-    <div>
-      <div>
-        <h2>Rođendan <span>Proslave</span> kod nas!</h2>
-      </div>
-  
-      <div>
-        <div>
-          <div>
-            <div>
-              <div>
-                <img alt="" />
-              </div>
-              <div>
-                <h3>Rođendani</h3>
-                <div>
-                  <p><span>2 sata</span></p>
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img
+                src="assets/img/menu/cleopatra.jfif"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Kleopatra</a>
                 </div>
-                <p>
-                    Organizovanje rođendanske zabave u našem restoranu je odličan način
-                    za okupljenje društva. Možete se sastati sa našim planerima za događaje:
-                </p>
-                <ul>
-                  <li><i></i> Hrana.</li>
-                  <li><i></i> Piće.</li>
-                  <li>
-                    <i></i> Dekoracije i raspored žurke.
-                  </li>
-                </ul>
-                <p>
-                  Garantujemo da će vaša zabava biti nezaboravna.
-                </p>
+                <div class="menu-ingredients">
+                  Filet morske pastrmke, škampi, pečurke, lovor , lrastavac,
+                  limun, maslinovo ulje.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-drinks">
+              <img src="assets/img/menu/juice.jpeg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Sveže ceđen sok od narandže</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-salads">
+              <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Cezar salata</a>
+                </div>
+                <div class="menu-ingredients">
+                  Zelena salata, čeri paradajz, grilovana piletina, parmezan
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img src="assets/img/menu/beffy.jpg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Mesanko</a>
+                </div>
+                <div class="menu-ingredients">
+                  Paradajz sos, mozzarella, šunka, pečurke, origano
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-drinks">
+              <img src="assets/img/menu/mojito.jpg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Mojito</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-salads">
+              <img
+                src="assets/img/menu/nut-salad.jpg"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-item-details">
+                <div class="menu-content"><a href="#">Luda salata</a><</div>
+                <div class="menu-ingredients">
+                  Zelena salata, rukola, čeri paradajz, krastavac, feta sir
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-salads">
+              <img
+                src="assets/img/menu/burrata-salad.jpg"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Burrata salata</a>
+                </div>
+                <div class="menu-ingredients">
+                  Čeri paradajz, rukola, masline, maslinovo ulje
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img src="assets/img/menu/juicy.jpg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Sočko</a>
+                </div>
+                <div class="menu-ingredients">
+                  Mešano meso, šampinjoni, origano, masline, paradajz sos
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- End testimonial item -->
-  
-  <!-- ======= Book A Table Section ======= -->
-<section>
-    <div>
-      <div>
-        <h2>Rezerviši <span>sto</span></h2>
-      </div>
-  
-      <form role="form">
-        <div>
-          <div>
-            <input
-              type="text"
-              name="name"
-              placeholder="Ime"
-            />
-            <div></div>
+      </section>
+      <!-- End Menu Section -->
+
+      <!-- ======= Events Section ======= -->
+      <section id="events" class="events">
+        <div class="swiper-container max-width-container">
+          <div class="section-title">
+            <h2> <span>Proslave</span> kod nas!</h2>
           </div>
-          <div>
-            <input
-              type="email"
-              name="email"
-              placeholder="Prezime"
-            />
-            <div></div>
-          </div>
-          <div>
-            <input
-              type="text"
-              name="phone"
-              placeholder="Telefon"
-            />
-            <div></div>
-          </div>
-          <div>
-            <input
-              type="text"
-              name="date"
-              placeholder="Datum"
-            />
-            <div></div>
-          </div>
-          <div>
-            <input
-              type="text"
-              name="time"
-              placeholder="Sati"
-            />
-            <div></div>
-          </div>
-          <div>
-            <input
-              type="number"
-              name="people"
-              placeholder="Broj ljudi"
-            />
-            <div></div>
-          </div>
-        </div>
-        <div>
-          <textarea
-            name="message"
-            rows="5"
-            placeholder="Komentar"
-          ></textarea>
-          <div></div>
-        </div>
-        <div>
-          <button type="reset">Pošalji</button>
-        </div>
-      </form>
-    </div>
-  </section>
-  <!-- End Book A Table Section -->
-  
-  <section>
-    <div>
-      <div>
-        <h2>Galerija <span>Našeg restorana</span></h2>
-      </div>
-      <div>
-        <div>
-          <div>
-            <a>
-                <img alt="restoran">
-            </a>
-          </div>
-        </div>
-  
-        <div>
-          <div>
-            <a>
-                <img alt="restoran">
-            </a>
-          </div>
-        </div>
-  
-        <div>
-          <div>
-            <a>
-                <img alt="restoran">
-            </a>
-          </div>
-        </div>
-  
-        <div>
-          <div>
-            <a>
-                <img alt="restoran">
-            </a>
-          </div>
-        </div>
-  
-        <div>
-          <div>
-            <a>
-                <img alt="restoran">
-            </a>
-          </div>
-        </div>
-  
-        <div>
-          <div>
-            <a>
-              <img alt="restoran">
-            </a>
-          </div>
-        </div>
-  
-        <div>
-          <div>
-            <a>
-                <img alt="restoran">
-            </a>
-          </div>
-        </div>
-  
-        <div>
-          <div>
-            <a>
-                <img alt="restoran">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ======= Testimonials Section ======= -->
-<section>
-    <div>
-      <div>
-        <div>
-          <div>
-            <div>
-              <img/>
-              <h3>Dušan Prošić</h3>
-              <h4>Team lead</h4>
-              <div>
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
+
+          <div class="events-slider swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="row event-item">
+                  <div class="col-lg-6 d-lg-flex align-items-center">
+                    <img
+                      src="assets/img/events/event-birthday.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Rođendani</h3>
+                    <div class="price">
+                      <p><span>3 sata</span></p>
+                    </div>
+                    <p class="fst-italic">
+                      Organizovanje rođendanske zabave u našem restoranu je
+                      odličan način za okupljenje društva. Možete se sastati sa
+                      našim planerima za događaje:
+                    </p>
+                    <ul>
+                      <li><i class="bi bi-check-circle"></i> Hrana.</li>
+                      <li><i class="bi bi-check-circle"></i> Piće.</li>
+                      <li>
+                        <i class="bi bi-check-circle"></i> Dekoracije i raspored
+                        žurke.
+                      </li>
+                    </ul>
+                    <p>Garantujemo da će vaša zabava biti nezaboravna.</p>
+                  </div>
+                </div>
               </div>
-              <p>
-                <i></i>
-                Najbolja pasta u Novom Sadu. Odlična hrana, velike porcije, vrh prezentacije. Vraćam se opet.
-              </p>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="row event-item">
+                  <div class="col-lg-6 d-lg-flex align-items-center">
+                    <img
+                      src="assets/img/events/event-holiday.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Praznične proslave.</h3>
+                    <div class="price">
+                      <p><span>4 sata</span></p>
+                    </div>
+                    <p class="fst-italic">
+                      Organizovanje rođendanske zabave u našem restoranu je
+                      odličan način za okupljenje društva. Možete se sastati sa
+                      našim planerima za događaje:
+                    </p>
+                    <ul>
+                      <li>
+                        <i class="bi bi-check-circle"></i> Diplomske žurke
+                      </li>
+                      <li><i class="bi bi-check-circle"></i> Veridba</li>
+                      <li>
+                        <i class="bi bi-check-circle"></i> Penzionerske žurke
+                      </li>
+                    </ul>
+                    <p>Postaracemo se da svaka žurka bude specijalna.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="row event-item">
+                  <div class="col-lg-6 d-lg-flex align-items-center">
+                    <img
+                      src="assets/img/events/event-baby.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Prvi rođendani</h3>
+                    <div class="price">
+                      <p><span>4 sata</span></p>
+                    </div>
+                    <p class="fst-italic">
+                      Proslavite prvi rođendan vašeg deteta! Napravićemo
+                      okruženje bez stresa, za vašu porodicu i prijatelje.
+                      Postaraćemo se za:
+                    </p>
+                    <ul>
+                      <li><i class="bi bi-check-circle"></i> Žurku</li>
+                      <li><i class="bi bi-check-circle"></i> Hranu</li>
+                      <li><i class="bi bi-check-circle"></i> Piće</li>
+                    </ul>
+                    <p>
+                      Dok se vi fokusirate na pozicnice, poklone, dekoracije i
+                      ostale detalje za vaš nezaboravni događaj.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Events Section -->
+
+      <!-- ======= Book A Table Section ======= -->
+      <section id="book-a-table" class="book-a-table">
+        <div class="container max-width-container">
+          <div class="section-title">
+            <h2>Napravi <span>rezervaciju</span></h2>
+          </div>
+
+          <form role="form" class="email-form">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 form-group">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Ime i prezime"
+                  data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars"
+                />
+                <div class="validate"></div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  placeholder="Vaša e-mail"
+                  data-rule="email"
+                  data-msg="Please enter a valid email"
+                />
+                <div class="validate"></div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="phone"
+                  id="phone"
+                  placeholder="Broj telefona"
+                  data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars"
+                />
+                <div class="validate"></div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group mt-3">
+                <input
+                  type="text"
+                  name="date"
+                  class="form-control"
+                  id="date"
+                  placeholder="Datum"
+                  data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars"
+                />
+                <div class="validate"></div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group mt-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="time"
+                  id="time"
+                  placeholder="Vreme"
+                  data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars"
+                />
+                <div class="validate"></div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group mt-3">
+                <input
+                  type="number"
+                  class="form-control"
+                  name="people"
+                  id="people"
+                  placeholder="Broj mesta"
+                  data-rule="minlen:1"
+                  data-msg="Please enter at least 1 chars"
+                />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <textarea
+                class="form-control"
+                name="message"
+                rows="5"
+                placeholder="Detalji"
+              ></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Uspešno ste napravili rezervaciju!</div>
+            </div>
+            <div class="text-center">
+              <button type="reset">Pošalji</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- End Book A Table Section -->
+
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery" class="gallery">
+        <div class="container-fluid max-width-container">
+          <div class="section-title">
+            <h2>Galerija <span>restorana</span></h2>
+          </div>
+          <div class="row g-2">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-1.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-1.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-2.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-2.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-3.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-3.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-4.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-4.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-5.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-5.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-6.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-6.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-7.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-7.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-8.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-8.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
             </div>
           </div>
-          <!-- End testimonial item -->
-  
-          <div>
-            <div>
-              <img/>
-              <h3>Stefany Husarova</h3>
-              <h4>Designer</h4>
-              <div>
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
+        </div>
+      </section>
+      <!-- End Gallery Section -->
+
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials">
+        <div class="container position-relative max-width-container">
+          <div
+            class="testimonials-slider swiper"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/bachir.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Dušan Prošić</h3>
+                  <h4>Team lead</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Najbolja pasta u Novom Sadu. Odlična hrana, velike porcije,
+                    vrh prezentacije. Vraćam se opet.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
               </div>
-              <p>
-                <i></i>
-                Sveža, raznovrsna i kvalitetna hrana i besprekorna usluga sigurno ću se vratiti.
-                <i></i>
-              </p>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/sywar.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Stefany Husarova</h3>
+                  <h4>Designer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Sveža, raznovrsna i kvalitetna hrana i besprekorna usluga
+                    sigurno ću se vratiti.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/rahma.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Nikola Vučković</h3>
+                  <h4>PLC Promgramer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Za ljubitelje paste 🍝 RestPromo je preporuka. Brzo i veoma
+                    ljubazno osoblje, lep ambijent, a o hrani da ne govorim .👌🏻
+                    Visoka preporuka.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/oussama.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Mario Radosav</h3>
+                  <h4>Freelancer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Uvek se počastim u RestPromo ❤️ Ocena: 10/10.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container max-width-container">
+          <div class="section-title">
+            <h2><span>Kontakt</span></h2>
+            <p>Lako nas pronađite.</p>
+          </div>
+
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed/v1/place?q=Bulevar+cara+Lazara,+Novi+Sad,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+              width="100%"
+              height="350"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="container mt-5 max-width-container">
+          <div class="info-wrap">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 info">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Lokacija:</h4>
+                <p>Bulevar cara lazara<br />21000 Novi Sad</p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+                <i class="bi bi-clock"></i>
+                <h4>Radno vreme:</h4>
+                <p>Ponedeljak-Četvrtak:<br />12:00 AM - 23:00 PM</p>
+                <p>Petak-Nedelja:<br />12:00 AM - 00:00 PM</p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>restpromo@example.com</p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+                <i class="bi bi-phone"></i>
+                <h4>Telefon:</h4>
+                <p>(+381) 11 33 24 768</p>
+              </div>
             </div>
           </div>
-          <!-- End testimonial item -->
-  
-          <div>
-            <div>
-              <img/>
-              <h3>Nikola Vučković</h3>
-              <h4>PLC Promgramer</h4>
-              <div>
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
+
+          <form role="form" class="email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Ime i Prezime"
+                  required
+                />
               </div>
-              <p>
-                <i></i>
-                Za ljubitelje paste 🍝 RestPromo je preporuka. Brzo i veoma ljubazno osoblje, lep ambijent, a o hrani da ne govorim .👌🏻 Visoka preporuka.
-                <i></i>
-              </p>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  placeholder="Vaša email adresa"
+                  required
+                />
+              </div>
             </div>
-          </div>
+            <div class="form-group mt-3">
+              <input
+                type="text"
+                class="form-control"
+                name="subject"
+                id="subject"
+                placeholder="Naslov"
+                required
+              />
+            </div>
+            <div class="form-group mt-3">
+              <textarea
+                class="form-control"
+                name="message"
+                rows="5"
+                placeholder="Poruka"
+                required
+              ></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Vaša poruka je poslata!</div>
+            </div>
+            <div class="text-center">
+              <button type="reset">Pošalji</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
 
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <h3>RestPromo</h3>
+        <p>
+          RestPromo, restoran italijanske hrane specijalizovan za paste, salate
+          i deserte.
+        </p>
+        <div class="copyright">
+          &copy; Copyright <strong><span>RestPromo</span></strong
+          >. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by
+          <a href="https://github.com/Proja96/RestPromo" target="_blank">TSI</a>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- End testimonial item -->
+    </footer>
+    <!-- End Footer -->
 
-<div>
-    <div>
-      <img/>
-      <h3>Mario Radosav</h3>
-      <h4>Freelancer</h4>
-      <div>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-      </div>
-      <p>
-        <i></i>
-        Uvek se počastim u RestPromo ❤️
-        Ocena: 10/10.
-        <i></i>
-      </p>
-    </div>
-  </div>
-  <!-- End testimonial item -->
-  
-  <div>
-    <div>
-      <img/>
-      <h3>Italijanski kuvar</h3>
-      <h4>Italijanski kuvar</h4>
-      <div>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-      </div>
-      <p>
-        <i></i>
-        Bolje nego u Italiji.
-        <i></i>
-      </p>
-    </div>
-  </div>
-  <!-- End testimonial item -->
-  </div>
-  <div></div>
-  </div>
-  </div>
-  </section>
-  <!-- End Testimonials Section -->
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- ======= Contact Section ======= -->
-<section>
-    <div>
-      <div>
-        <h2><span>Kontakt</span></h2>
-        <p>Lako nas pronađite.</p>
-      </div>
-  
-      <div>
-        <iframe></iframe>
-      </div>
-    </div>
-  
-    <div>
-      <div>
-        <div>
-          <div>
-            <i></i>
-            <h4>Lokacija:</h4>
-            <p>Bulevar cara lazara 3<br />21000 Novi Sad</p>
-          </div>
-  
-          <div>
-            <i></i>
-            <h4>Radni sati:</h4>
-            <p>Ponedeljak-Četvrtak:<br />12:00 AM - 23:00 PM</p>
-            <p>Petak-Nedelja:<br />12:00 AM - 00:00 PM</p>
-          </div>
-  
-          <div>
-            <i></i>
-            <h4>Email:</h4>
-            <p>restpromo@example.com</p>
-          </div>
-  
-          <div>
-            <i></i>
-            <h4>Telefon:</h4>
-            <p>(+381) 11 33 24 768</p>
-          </div>
-        </div>
-      </div>
-  
-      <form role="form">
-        <div>
-          <div>
-            <input
-              type="text"
-              required
-              placeholder="Ime i Prezime"
-            />
-          </div>
-          <div>
-            <input
-              type="email"
-              required
-              placeholder="Email"
-            />
-          </div>
-        </div>
-        <div>
-          <input
-            type="text"
-            required
-            placeholder="Naslov"
-          />
-        </div>
-        <div>
-          <textarea
-            rows="5"
-            required
-            placeholder="Poruka"
-          ></textarea>
-        </div>
-        
-        <div>
-          <button type="reset">Pošalji</button>
-        </div>
-      </form>
-    </div>
-  </section>
-  <!-- End Contact Section -->
-  </main>
-  <!-- End #main -->
-  <!-- ======= Footer ======= -->
-  <footer>
-    <div>
-      <h3>RestPromo</h3>
-    </div>
-  </footer>
-  <!-- End Footer -->
+    <!-- Vendor JS Files -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
 
-  <a href="#"><i>*</i></a>
-  
-    </body>
+    <!-- Template Main JS File -->
+    <script src="main.js"></script>
+  </body>
+</html>
